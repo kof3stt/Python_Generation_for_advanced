@@ -1,2 +1,12 @@
-# Одинаковые наборы
-print(("YES", "NO")[set(input()) != set(input())])
+fruits = {
+    "apple",
+    "banana",
+    "cherry",
+    "avocado",
+    "pineapple",
+    "apricot",
+    "banana",
+    "avocado",
+    "grapefruit",
+}
+print(*sorted(fruits, reverse=True), sep="\n")

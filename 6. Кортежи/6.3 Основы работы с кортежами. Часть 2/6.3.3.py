@@ -1,6 +1,3 @@
-# Последовательность Трибоначчи
-n = int(input())
-f1 = f2 = f3 = 1
-for _ in range(n):
-    print(f1, end=" ")
-    f1, f2, f3 = f2, f3, f1 + f2 + f3
+poet_data = ("Пушкин", 1799, "Санкт-Петербург")
+poet_data = tuple(list(poet_data)[:2]) + ("Москва",)
+print(poet_data)

@@ -1,3 +1,2 @@
-# Три слова
-a, b, c = input().split()
-print("YES" if set(a) == set(b) == set(c) else "NO")
+# Количество различных символов
+print(len(set(input())))
